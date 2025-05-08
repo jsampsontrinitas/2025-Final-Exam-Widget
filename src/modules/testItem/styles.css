@@ -1,0 +1,33 @@
+.test-item {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 6px 8px;
+    position: relative;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto 8px 0;
+}
+
+.partial-results {
+    width: 100%;
+    padding-left: 24px;
+    font-size: 0.75rem;
+    color: #6b7280;
+}
+
+.test-item:hover {
+    background-color: #f3f4f6;
+}
+
+.test-icon {
+    margin-right: 8px;
+    flex-shrink: 0;
+}
+
+.test-name {
+    flex-grow: 1;
+    color: #4b5563;
+}
